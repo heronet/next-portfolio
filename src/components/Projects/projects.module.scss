@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  background: black;
+  color: white;
+  scroll-margin-top: 2rem;
+}
+.content {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 600px) {
+  .content {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .content {
+    padding: 10px 40px;
+  }
+}
